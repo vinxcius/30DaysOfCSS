@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    min-height: 13vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:  center;
+    
+    text-align: center;
+    background-color: crimson;
+
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+header h1{
+
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 10px;
+}
+
+header p{
+    font-size: 24px;
+}
+
+.container{
+    min-height: 87vh;
+    font-family: 'Roboto', sans-serif;
+
+    display: flex;  
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    background: rgb(10, 30, 66);
+    padding: 80px;
+
+}
