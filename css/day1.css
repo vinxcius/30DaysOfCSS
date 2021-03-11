@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    min-height: 13vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:  center;
+    
+    text-align: center;
+    background-color: crimson;
+
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+header h1{
+
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 10px;
+}
+
+header p{
+    font-size: 24px;
+}
+
+.container{
+    min-height: 87vh;
+
+    display: flex;  
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background: rgb(10, 30, 66);
+    padding: 80px;
+
+}
+
+.container .box{
+    width: 430px;
+    height: 600px;
+
+    border: 4px solid rgb(202, 24, 24);
+    border-radius: 15px;
+    position: relative;
+    margin: 20px auto;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+
+    overflow: hidden;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.container .box:first-child{
+    background: url('../img/reyna.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.container .box:last-child{
+    background: url('../img/viper.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.container .box#second-box{
+    background: url('../img/omen.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.container .box .box-text{
+    position: absolute;
+    bottom: -300px;
+
+    background: rgba(0, 0, 0, 0.5);
+   
+
+    backdrop-filter: blur(2.1px);
+    -webkit-backdrop-filter: blur(2.1px);
+
+    padding: 10px;
+
+    width: 100%;
+    transition: 0.5s;
+}
+.container .box:hover .box-text{
+    bottom: 0;
+}
+
+.box .box-text h2{
+    color: #ececec;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 2px;
+    font-size: 27px;
+    text-transform: uppercase;
+
+    margin: 10px;
+}
+
+.box .box-text p{
+    color: #ececec;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin: 10px;
+    line-height: 25px;
+}
+
+
