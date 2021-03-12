@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Roboto:ital@0;1&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body{
+    background: #0a1e42;
 }
 
 header{
@@ -20,7 +26,6 @@ header{
 }
 
 header h1{
-
     text-transform: uppercase;
     letter-spacing: 3px;
     padding: 10px;
@@ -28,6 +33,16 @@ header h1{
 
 header p{
     font-size: 24px;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3{
+    font-family: 'Lato', sans-serif;
 }
 
 .container{
@@ -41,5 +56,4 @@ header p{
 
     background: rgb(10, 30, 66);
     padding: 80px;
-
 }
