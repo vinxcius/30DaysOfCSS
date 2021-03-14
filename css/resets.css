@@ -37,6 +37,7 @@ header p{
 
 p{
     font-family: 'Roboto', sans-serif;
+    padding: 15px;
 }
 
 h1,
@@ -46,14 +47,13 @@ h3{
 }
 
 .container{
-    min-height: 87vh;
+    min-height: 88vh;
     font-family: 'Roboto', sans-serif;
-
     display: flex;  
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 
-    background: rgb(10, 30, 66);
+    background: #0a1e42;
     padding: 80px;
 }
