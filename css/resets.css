@@ -47,7 +47,7 @@ h3{
 }
 
 .container{
-    min-height: 88vh;
+    min-height: 87vh;
     font-family: 'Roboto', sans-serif;
     display: flex;  
     flex-wrap: wrap;
