@@ -1,0 +1,46 @@
+.parent{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent div{
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 5px #139dd3b3,
+    0 0 20px 2px #139dd3b3,
+    0 0 20px 5px #139dd3b3,
+    0 0 20px 7px #139dd3b3;
+}
+
+.first{
+    animation: 1s grow ease-out alternate infinite;
+}
+
+.second{
+    animation: 1s grow ease-out alternate infinite;
+    animation-delay: 0.25s;
+}
+
+.third{
+    animation: 1s grow ease-out alternate infinite;
+    animation-delay: 0.425s;
+}
+
+@keyframes grow{
+    0%{
+        width: 0;
+        height: 0;
+    }
+    100%{
+        width: 100px;
+        height: 100px;
+    }
+}
