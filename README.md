@@ -12,5 +12,7 @@ Compartilhe seu progresso nas mídias sociais (Twitter, Facebook, Linkedin etc.)
 O projeto deve ser concluído até 23:59.
 
 ### Projects / Projetos 💻
-1. [Dia 01 - Card com efeito hover no texto](https://www.google.com).
-2. Em andamento...
+1. [Dia 01 - Card com efeito hover no texto](https://www.linkedin.com/posts/vinicius-rodrigues-souza-233141192_30diasdecss-css-30dayscss-activity-6775585278057861120-u0nx).
+2. [Dia 02 - 04 Estilizações diferentes com o efeito hover sobre um botão](https://www.linkedin.com/posts/vinicius-rodrigues-souza-233141192_30diasdecss-css-30dayscss-activity-6775791751840985089-3deU)
+3. [Dia 03 - Animação utilizando efeitos de perspectiva](https://www.linkedin.com/posts/vinicius-rodrigues-souza-233141192_30diasdecss-css-30dayscss-activity-6776175866440413184-ctSl)
+4. [Dia 04 - Animação de Foguete]()
