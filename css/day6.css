@@ -1,0 +1,47 @@
+.container div{
+    border: 4px solid #fff;
+    padding: 60px 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #1eff4e,
+    0 0 30px #1eff4e,
+    0 0 10px #1eff4e,
+    inset 0 0 30px #1eff4e;
+
+    transition: .4s;
+
+    cursor: pointer;
+    animation: animate .9s linear infinite;
+}
+
+.container div h1{
+    font-size: 4em;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #1eff4e,
+    0 0 20px #1eff4e,
+    0 0 80px #1eff4e,
+    0 0 120px #1eff4e;
+   
+}
+
+.container div:hover{
+    transform: scale(1.1);
+}
+
+@keyframes animate{
+    0%{
+        opacity: 1;
+    }
+    30%{
+        opacity: 1;
+    }
+    40%{
+        opacity: .5;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
