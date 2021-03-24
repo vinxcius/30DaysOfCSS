@@ -10,6 +10,7 @@ body{
     background: #0a1e42;
 }
 
+
 header{
     min-height: 13vh;
 
@@ -53,7 +54,5 @@ h3{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-
-    background: #0a1e42;
     padding: 80px;
 }
