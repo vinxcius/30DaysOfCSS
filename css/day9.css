@@ -1,0 +1,32 @@
+h2{
+    margin: 0;
+    line-height: 1;
+    font-size: 10em;
+    color: transparent;
+    text-transform: uppercase;
+
+    background-image: linear-gradient(
+    to left,
+     #2ecc71, 
+     #3498db, 
+     #9b59b6,
+     #f39c12);
+     background-size: 500%;
+     -webkit-background-clip: text;
+     -webkit-background-size: 500%;
+
+     animation: animate 5s linear infinite;
+
+}
+
+@keyframes animate{
+    0%{
+        background-position: 0 100%;
+    }
+    50%{
+        background-position: 100% 0;
+    }
+    100%{
+        background-position: 0 100%;
+    }
+}
