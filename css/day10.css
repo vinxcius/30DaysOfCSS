@@ -1,0 +1,97 @@
+.card{
+    position: relative;
+    width: 400px;
+    height: 500px;
+
+    background: #fff;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+
+    box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.747);
+
+}
+
+ .imgBox{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    background: chartreuse;
+    transform-origin: left;
+    transform-style: preserve-3d;
+
+    background: rgb(37, 37, 37);
+    background-image: url('../img/day10-smile.png');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 40% ;
+    transition: 1s;
+}
+
+.card:hover .imgBox{
+    transform: rotateY(-180deg);
+}
+
+.imgBox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+}
+.card .details{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card .details img{
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+
+}
+
+.card .details .content h2{
+    text-align:  center;
+    font-weight: 700;
+    line-height: 1em;
+    font-size:2em;
+    z-index: -1;
+}
+
+.card .details .content h2 span{
+    color: teal;
+    font-size: .8em;
+}
+
+
+.card .details a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    margin-top: 30px;
+    background-color: teal;
+    padding: 15px;
+    font-size: 18px;
+    transition: .4s;
+}
+
+.card .details a:hover{
+    background-color: #075a5a;
+}
