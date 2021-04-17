@@ -1,0 +1,25 @@
+img{
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px rgba(0,0,0,.9);
+  filter: grayscale(100%);
+
+  position: relative;
+  transition: .4s;
+  cursor: pointer;
+}
+
+.container h1{
+  position: absolute;
+  z-index: 999;
+  font-size: 7em;
+  text-transform: uppercase;
+  color: crimson;
+  font-weight: bold;
+
+  transition: .4s;
+}
+
+.container img:hover{
+  filter: grayscale(0%);
+}
+
