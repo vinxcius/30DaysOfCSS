@@ -1,0 +1,31 @@
+ul{
+  display: flex;
+}
+
+ul li{
+  list-style-type: none;
+  transition: .5s;
+}
+
+ul li a{
+  position: relative;
+  display: block;
+
+  margin: 0 25px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+ul:hover li{
+  opacity: .2;
+  filter: blur(2px);
+}
+
+ul li:hover{
+  opacity: 1;
+  filter: blur(0px);
+}
