@@ -1,0 +1,47 @@
+.layer{
+  position: relative;
+  width: 450px;
+  height: 720px;
+  margin-top: 15px;
+
+
+  transition: transform .5s;
+  cursor: pointer;
+}
+
+
+.layer img{
+  position: absolute;
+  width: 100%;
+
+  transition: .5s;
+}
+
+.layer:hover{
+  transform: rotate(-30deg) skew(25deg) scale(.9);
+}
+.layer:hover img:nth-child(4){
+  transform: translate(160px, -160px);
+  opacity: 1;
+  transition-delay: .5s;
+}
+
+.layer:hover img:nth-child(3){
+  transform: translate(120px, -120px);
+  opacity: .8;
+  transition-delay: .5s;
+}
+
+
+.layer:hover img:nth-child(2){
+  transform: translate(80px, -80px);
+  opacity: .6;
+  transition-delay: .5s;
+}
+
+
+.layer:hover img:nth-child(1){
+  transform: translate(40px, -40px);
+  opacity: .4;
+  transition-delay: .5s;
+}
