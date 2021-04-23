@@ -1,0 +1,39 @@
+
+.container h1 {
+	position: relative;
+	font-size: 10em;
+	font-weight: bold;
+
+	color: #fff;
+	text-transform: uppercase;
+}
+.container h1:before,
+.container h1::after {
+	content: attr(data-text);
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: .8;
+}
+.container h1::before {
+	z-index: -1;
+	color: #17f8f8;
+	animation: animateGlitch 1s ease-in-out infinite;
+}
+.container h1::after {
+	z-index: -2;
+	color: #ff2575;
+	animation: animateGlitch .8s .4s ease-in-out infinite;
+}
+@keyframes animateGlitch {
+
+	15% {
+		transform: translate(-1.3%, -2%);
+	}
+	45% {
+		transform: translate(1.3%, 2%);
+	}
+	75% {
+		transform: translate(-1%, -1%);
+	}
+}
