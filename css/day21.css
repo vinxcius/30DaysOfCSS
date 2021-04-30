@@ -1,0 +1,11 @@
+.text{
+  position: relative;
+  display: block;
+  font-size: 10em;
+  color: #0a1e42;
+  line-height: .9em;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: -1px 1px 19px rgba(0,0,0,.4), 1px -1px 0 rgba(255,255,255,1);
+}
+
