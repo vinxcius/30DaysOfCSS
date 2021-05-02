@@ -1,0 +1,42 @@
+.smoke span{
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 20px;
+  font-size: 9rem;
+  animation:  fade 3s linear infinite;
+}
+
+.smoke span:nth-child(1){
+  animation-delay: 0s;
+}
+.smoke span:nth-child(2){
+  animation-delay: 0.1s;
+}
+.smoke span:nth-child(3){
+  animation-delay: 0.2s;
+}
+.smoke span:nth-child(4){
+  animation-delay: 0.3s;
+}
+
+.smoke span:nth-child(5){
+  animation-delay: 0.4s;
+}
+
+.smoke span:nth-child(6){
+  animation-delay: 0.5s;
+}
+@keyframes fade {
+  0%{
+    filter: blur(0);
+  }
+  40%{
+    filter: blur(20px);
+  }
+  60%{
+    filter: blur(0);
+  }
+  1000%{
+    filter: blur(0);
+  }
+}
