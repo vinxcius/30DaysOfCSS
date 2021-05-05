@@ -1,0 +1,76 @@
+
+.box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1000px;
+  transform: translate(-50%,-50%);
+  height: 150px;
+  font-family: 'Roboto', sans-serif;
+}
+.box .face{
+  position: absolute;
+  width: 500px;
+  height: 150px;
+  font-size: 4.3em;
+  text-align: center;
+  line-height: 150px;
+  overflow: hidden;
+}
+
+.box .face span{
+  width: 100%;
+  height: 100%;
+  display: block;
+  transition: .5s;
+
+}
+
+.box .face.face1{
+  background-color: #1f4ca0;
+  transform-origin: left;
+  left: 0;
+  transform: perspective(800px) rotateY(-64deg);
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+}
+
+
+.box .face.face2{
+  background-color: #215ece;
+  transform-origin: right;
+  right: 0;
+  transform: perspective(800px) rotateY(64deg);
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+}
+
+.box .face.face1 span{
+  position: absolute;
+  animation:  flowToLeft 10s linear infinite;
+}
+
+@keyframes  flowToLeft {
+    0%{
+      left: 200%
+    }
+    100%{
+      left: -100%
+    }
+}
+
+.box .face.face2 span{
+  position: absolute;
+  animation:  flowToRight 10s linear infinite;
+}
+
+@keyframes  flowToRight {
+    0%{
+      left: 100%;
+    }
+    100%{
+      left: -200%
+    }
+}
