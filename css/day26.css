@@ -1,0 +1,23 @@
+h2{
+  font-size: 6em;
+  text-align: center;
+  cursor: pointer;
+}
+
+h2 span{
+  position: relative;
+  display: inline-flex;
+  color: crimson;
+}
+
+h2 span:nth-child(odd){
+  letter-spacing: -1em;
+  line-height: 1em;
+  color: orange;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+}
+
+h2:hover span:nth-child(odd){
+  letter-spacing: 0;
+}

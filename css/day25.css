@@ -1,0 +1,21 @@
+.dot{
+  width: 20px;
+  height: 20px;
+  background: rgb(220, 20, 60);
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(220, 20, 60,1),
+  0 0 40px rgba(220, 20, 60,1),
+  0 0 60px rgba(220, 20, 60,1),
+  0 0 80px rgba(220, 20, 60,1);
+  transition: 1s;
+  cursor: pointer;
+}
+
+.dot:hover{
+  box-shadow: 0 0 0 30px rgba(220, 20, 60,.1),
+  0 0 0 60px rgba(220, 20, 60, .1),
+  0 0 0 120px rgba(220, 20, 60, .1),
+  0 0 0 240px rgba(220, 20, 60, .1),
+  0 0 0 480px rgba(220, 20, 60, .1),
+  0 0 0 960px rgba(220, 20, 60, .1);
+}
